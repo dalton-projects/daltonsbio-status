@@ -22,8 +22,10 @@ sites:
 assignees:
   - Gabriel-Dalton
 
+# Upptime's own page is not used; status.daltonsbio.com is served from
+# dalton-projects/daltonsbio-status-page, which reads this repository's results.
 status-website:
-  cname: status.daltonsbio.com
+  baseUrl: /daltonsbio-status
   logoUrl: https://www.daltonsbio.com/email/logo.png
   favicon: https://www.daltonsbio.com/favicon.png
   faviconSvg: https://www.daltonsbio.com/favicon.png
