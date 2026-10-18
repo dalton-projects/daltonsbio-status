@@ -1,0 +1,7 @@
+{
+  "name": "daltonsbio-status-trigger",
+  "private": true,
+  "devDependencies": {
+    "wrangler": "4.151.1"
+  }
+}
