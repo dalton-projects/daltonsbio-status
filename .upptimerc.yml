@@ -1,31 +1,35 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: dalton-projects
+repo: daltonsbio-status
 
+# Each row is something a student does. The three /api/health parts answer
+# 503 when that part is down. See docs/plan/STATUS-PAGE.md in daltonsbio.com.
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://www.daltonsbio.com
+    slug: website
+  - name: Signing in
+    url: https://www.daltonsbio.com/api/health?part=database
+    slug: signing-in
+  - name: Buying a course
+    url: https://www.daltonsbio.com/api/health?part=payments
+    slug: buying-a-course
+  - name: Lessons
+    url: https://www.daltonsbio.com/api/health?part=lessons
+    slug: lessons
+
+# Incident issues are assigned here, which is what sends the email and the
+# GitHub app notification.
+assignees:
+  - Gabriel-Dalton
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.daltonsbio.com
+  logoUrl: https://www.daltonsbio.com/email/logo.png
+  name: D'Alton's Bio-Energy status
+  introTitle: "Service status for D'Alton's School of Bio-Energy Healing"
+  introMessage: If something is not working for you and it is not listed here, email [info@daltonsbio.com](mailto:info@daltonsbio.com).
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: Back to the school
+      href: https://www.daltonsbio.com
