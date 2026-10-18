@@ -25,6 +25,8 @@ assignees:
 status-website:
   cname: status.daltonsbio.com
   logoUrl: https://www.daltonsbio.com/email/logo.png
+  favicon: https://www.daltonsbio.com/favicon.png
+  faviconSvg: https://www.daltonsbio.com/favicon.png
   name: D'Alton's Bio-Energy status
   introTitle: "Service status for D'Alton's School of Bio-Energy Healing"
   introMessage: If something is not working for you and it is not listed here, email [info@daltonsbio.com](mailto:info@daltonsbio.com).
@@ -33,3 +35,7 @@ status-website:
       href: /
     - title: Back to the school
       href: https://www.daltonsbio.com
+
+# Replaces the default "This page is open source, powered by Upptime" line.
+i18n:
+  footer: "D'Alton's School of Bio-Energy Healing. Questions? Email [info@daltonsbio.com](mailto:info@daltonsbio.com)."
