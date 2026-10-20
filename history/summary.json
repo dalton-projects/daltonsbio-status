@@ -58,17 +58,19 @@
     "url": "https://www.daltonsbio.com/api/health?part=lessons",
     "icon": "https://icons.duckduckgo.com/ip3/www.daltonsbio.com.ico",
     "slug": "lessons",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 549,
-    "timeDay": 479,
-    "timeWeek": 549,
-    "timeMonth": 549,
-    "timeYear": 549,
-    "dailyMinutesDown": {}
+    "time": 485,
+    "timeDay": 321,
+    "timeWeek": 485,
+    "timeMonth": 485,
+    "timeYear": 485,
+    "dailyMinutesDown": {
+      "2026-10-20": 0
+    }
   }
 ]
