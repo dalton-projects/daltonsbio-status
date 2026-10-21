@@ -22,6 +22,10 @@ sites:
 assignees:
   - Gabriel-Dalton
 
+# Upptime deletes incidents that end within 15 minutes. Keep them, so a short
+# outage still shows on the status page history.
+skipDeleteIssues: true
+
 # Upptime's own page is not used; status.daltonsbio.com is served from
 # dalton-projects/daltonsbio-status-page, which reads this repository's results.
 status-website:
